@@ -1,4 +1,4 @@
-### 打包成可执行Jar
+### 打包成可执行Jar 
 > maven-assembly-plugin 插件
 
 > 打包命令 mvn clean package assembly:single 
@@ -22,6 +22,7 @@
 
 ### 引入本地Jar
 > dependency 添加 <scope\>、<systemPath\>标签
+
 ```xml
 <dependency>
     <groupId>custom</groupId>
@@ -44,3 +45,6 @@
     </resources>
 </build>
 ```
+
+### spring boot 打包跳过测试
+> mvn clean install -Dmaven.test.skip=true
