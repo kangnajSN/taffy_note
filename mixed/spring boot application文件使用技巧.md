@@ -4,7 +4,7 @@
 
 > *max_size 使用
 ```
-&max_size 20MB
+max_size: &max_size 20MB
 
 
 # 1000~10000
